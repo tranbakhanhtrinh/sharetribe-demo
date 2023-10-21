@@ -202,6 +202,7 @@ class ProfileSettingsFormComponent extends Component {
               }}
             >
               <div className={css.sectionContainer}>
+                1
                 <H4 as="h2" className={css.sectionTitle}>
                   <FormattedMessage id="ProfileSettingsForm.yourProfilePicture" />
                 </H4>
