@@ -27,9 +27,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Install dependencies
     - run: yarn install
-    - name: Build app
     - run: yarn build --if-present
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.14   
