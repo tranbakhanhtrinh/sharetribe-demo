@@ -28,5 +28,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
     - run: yarn install
+    
+    - name: Run CI
     - run: npm ci
+    
+    - name: Build app
     - run: yarn build --if-present
